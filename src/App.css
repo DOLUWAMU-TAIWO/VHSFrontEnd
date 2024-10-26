@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Styling for Footer */
+footer {
+  background: linear-gradient(to right, #f3f4f6, #e5e7eb); /* Subtle gradient for a premium look */
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .text-blue-600 {
+  font-weight: bold;
+}
+
+h1, h2 {
+  font-family: 'Georgia', serif; /* Classic font for a premium feel */
+  letter-spacing: 0.5px;
+}
+
+.text-blue-500 {
+  color: #1e3a8a; /* Darker shade of blue for links */
+}
+
+.text-blue-500:hover {
+  color: #2563eb; /* Brighter shade on hover */
+}

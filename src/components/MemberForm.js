@@ -25,7 +25,7 @@ function MemberForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-4">
+    <form onSubmit={handleSubmit} className="space-y-6 max-w-lg mx-auto mt-8">
       <div>
         <label className="text-sm font-semibold text-gray-700">Name</label>
         <input
